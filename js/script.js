@@ -7,21 +7,24 @@
 "use strict"
 
 /**
- * This function calculates area of a triangle.
+ * This function calculates area of a trapezoid.
  */
 function calculateAreaOfTriangle() {
   // input
-  const baseOfTriangle = parseFloat(
-    document.getElementById("base-of-triangle").value
+  const aBaseOfTrapezoid = parseInt(
+    document.getElementById("a-base-of-trapezoid").value
   )
-  const heightOfTriangle = parseFloat(
-    document.getElementById("height-of-triangle").value
+    const bBaseOfTrapezoid = parseInt(
+    document.getElementById("b-base-of-trapezoid").value
+  )
+  const heightOfTrapezoid = parseFloat(
+    document.getElementById("height-of-trapezoid").value
   )
 
   // process
-  const areaOfTriangle = (baseOfTriangle * heightOfTriangle) / 2
+  const areaOfTrapezoid = [(aBaseOfTrapezoid + bBaseOfTrapezoid) / 2] * heightOfTrapezoid
 
   // output
   document.getElementById("area").innerHTML =
-    "The area is: " + areaOfTriangle + " cm²"
+    "The area is: " + areaOfTrapezoid + " mm²"
 }

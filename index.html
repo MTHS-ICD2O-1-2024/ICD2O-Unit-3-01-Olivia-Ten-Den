@@ -65,11 +65,11 @@
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="base-of-triangle"
+              id="a-base-of-trapezoid"
             />
             <!-- mdl-textfield__label -->
-            <label class="mdl-textfield__label" for="base-of-triangle"
-              >Base of triangle (cm)</label
+            <label class="mdl-textfield__label" for="a-base-of-trapezoid"
+              >a Base of trapezoid (mm)</label
             >
             <!-- class "mdl-textfield__error" -->
             <span class="mdl-textfield__error">Input is not a number.</span>
@@ -83,47 +83,29 @@
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="height-of-triangle"
+              id="b-base-of-triangle"
             />
             <!-- mdl-textfield__label -->
-            <label class="mdl-textfield__label" for="height-of-triangle"
-              >Height of triangle (cm)</label
+            <label class="mdl-textfield__label" for="b-base-of-triangle"
+              >b base of triangle (mm)</label
             >
             <!-- class "mdl-textfield__error" -->
             <span class="mdl-textfield__error">Input is not a number.</span>
           </div>
           <p>mm</p>
           <br />
-          <p>b Base:</p>
+          <p>Height:</p>
           <div class="mdl-textfield mdl-js-textfield">
             <!-- input pattern attribute -->
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="height-of-triangle"
+              id="height-of-trapezoid"
             />
             <!-- mdl-textfield__label -->
-            <label class="mdl-textfield__label" for="height-of-triangle"
-              >Height of triangle (cm)</label
-            >
-            <!-- class "mdl-textfield__error" -->
-            <span class="mdl-textfield__error">Input is not a number.</span>
-          </div>
-          <p>mm</p>
-          <br />
-          <p>c Base:</p>
-          <div class="mdl-textfield mdl-js-textfield">
-            <!-- input pattern attribute -->
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
-              id="height-of-triangle"
-            />
-            <!-- mdl-textfield__label -->
-            <label class="mdl-textfield__label" for="height-of-triangle"
-              >Height of triangle (cm)</label
+            <label class="mdl-textfield__label" for="height-of-trapezoid"
+              >Height of trapezoid (mm)</label
             >
             <!-- class "mdl-textfield__error" -->
             <span class="mdl-textfield__error">Input is not a number.</span>
@@ -133,7 +115,7 @@
           <!-- Accent-colored raised button with ripple -->
           <button
             class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-            onclick="calculateAreaOfTriangle()"
+            onclick="calculateAreaOfTrapezoid()"
             type="button"
           >
             Calculate
