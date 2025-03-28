@@ -9,7 +9,7 @@
 /**
  * This function calculates area of a trapezoid.
  */
-function calculateAreaOfTriangle() {
+function calculateAreaOfTrapezoid
   // input
   const aBaseOfTrapezoid = parseInt(
     document.getElementById("a-base-of-trapezoid").value
@@ -17,7 +17,7 @@ function calculateAreaOfTriangle() {
     const bBaseOfTrapezoid = parseInt(
     document.getElementById("b-base-of-trapezoid").value
   )
-  const heightOfTrapezoid = parseFloat(
+  const heightOfTrapezoid = parseInt(
     document.getElementById("height-of-trapezoid").value
   )
 
